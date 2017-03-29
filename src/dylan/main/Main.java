@@ -6,7 +6,7 @@ import dylan.solver.PasswordSolver;
 public class Main {
     public static void main(String[] args) {
         PasswordSolver solver = new PasswordSolver();
-        String password = PasswordInput.getPasswordFromConsole();
-        System.out.println(password);
+        String password = PasswordInput.getPasswordFromConsole('!', 'z');
+        solver.solvePassword(password, '!', 'z');
     }
 }
