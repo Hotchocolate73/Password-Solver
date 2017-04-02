@@ -17,7 +17,7 @@ public class PasswordInput {
             for (int userInputIndex = 0; userInputIndex < userInput.length(); userInputIndex++) {
                 char currentChar = userInput.charAt(userInputIndex);
                 if (currentChar > upperLimit || currentChar < lowerLimit) {
-                    System.out.println("Inavlid character detected! - \'" + currentChar + "\'");
+                    System.out.println("Invalid character detected! - \'" + currentChar + "\'");
                     leaveCondition = false;
                 }
             }
